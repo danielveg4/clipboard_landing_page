@@ -1,1 +1,54 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/pseudo.scss' as *;
 
+
+
+
+
+.header{
+    background-image: url('/assets/images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+&__logo{
+    margin-top: 3rem;
+}
+
+&__title{
+    font-size: 2.3rem;
+    color: #4C545C;
+}
+&__text{
+    font-size: 1.2rem;
+    color: #9EABB2;}
+
+&__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+&__iosbutton{
+    height: 56px;
+    width: 311px;
+    background-color: #26BBA4;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+&__macbutton{
+    height: 56px;
+    width: 311px;
+    background-color: #6174FF;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+}
