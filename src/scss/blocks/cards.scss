@@ -1,0 +1,114 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/pseudo.scss' as *;
+
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.card{
+    margin-top: 1rem;
+
+
+    &__title{
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: #4C545C;
+    }
+    &__text{
+        font-size: 1.2rem;
+        color: #9EABB2;
+        margin-top: 0;
+        @include responsive(laptop) {
+            max-width: 600px;
+          }
+    }
+
+&__principal{ 
+    @include responsive(laptop) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        gap: 5rem;
+      }
+}
+
+&__image{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    @include responsive(laptop) {
+        width: 600px;
+      }
+}
+
+&__content{
+    @include responsive(laptop) {
+      width: 350px;
+      margin-top: 2rem;
+      text-align: left;
+      
+      }
+}
+
+&__contenttitle{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #4C545C;
+}
+
+&__contenttext{
+    font-size: 1.2rem;
+    color: #9EABB2;
+    margin-bottom: 3rem;
+}
+
+
+&__secondaries{
+    @include responsive(laptop) {
+       display: flex;
+       flex-direction: row;
+      }
+}
+
+&__secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include responsive(laptop) {
+        padding: 2rem;
+        max-width: 400px;
+       }
+}
+
+&__icon{
+    margin-top: 2rem;
+}
+
+&__logos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+
+    @include responsive(laptop) {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+       }
+}
+
+&__logo{}
+
+&__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+}

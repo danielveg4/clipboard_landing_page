@@ -1,1 +1,53 @@
 /* ESTILOS DEL FOOTER */
+
+@use "../mixins/responsive.scss" as *;
+
+
+
+.footer{
+    margin-top: 5rem;
+    background-color: #e3e3e3;
+    padding: 2rem;
+    color: #4C545C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        @include responsive(laptop) {
+        
+    }
+    
+}
+
+
+.grid-footer{
+    display: grid;
+    @include responsive(laptop) {
+        display: grid;
+        height: 150px;
+        gap: 1rem;
+        grid-template-columns: 250px 750px 250px;
+        grid-template-rows: 150px;
+                  }
+}
+.grid-item{
+    line-height: 1rem;
+    margin-top: 3.5rem;
+}
+
+.grid-item2{
+    @include responsive(laptop) {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        margin-top: 3rem;
+                  }
+}
+
+.footer__logo{
+    @include responsive(laptop) {
+        margin-top: -1rem;
+        margin-left: 3rem;
+        max-width: 5rem;
+                  }
+}
