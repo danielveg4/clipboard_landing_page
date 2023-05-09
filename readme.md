@@ -22,7 +22,7 @@ En esta página, a partir de un diseño en CSS, HTML y Javascript. utilizando ff
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://github.com/danielveg4/clipboard_landing_page/blob/main/Captura%20de%20Pantalla%202023-05-09%20a%20las%2017.58.36.png?raw=true)
 
 ## Autor ✒️
 
