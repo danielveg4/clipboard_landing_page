@@ -1,6 +1,6 @@
 # Clipboards landing page
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://github.com/danielveg4/clipboard_landing_page/blob/main/Captura%20de%20Pantalla%202023-05-09%20a%20las%2017.55.52.png?raw=true)
 
 ## Ejemplo en vivo
 
